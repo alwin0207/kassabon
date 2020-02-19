@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>title</title>
+    <link rel="stylesheet" href="alwintest.css">
+    <script src="alwintest.js"></script>
+  </head>
+
+  <body>
+    <div class="invulvak">
+      <h1>
+        Welke boodschappen wil je halen
+      </h1>
+      <form>
+        <select id="welkeBoodschap">
+          <option value="wasmiddel">Wasmiddel</option>
+          <option value="koekje">Koekje</option>
+          <option value="pizza">Pizza</option>
+        </select>
+        <select id="hoeveelBoodschap">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <button onclick="addItem()" type="button">
+          Submit
+        </button>
+      </form>
+    </div>
+    <div class="row">
+      <div class="column side">
+
+      </div>
+      <div class="column middle">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Albert_Heijn_Logo.svg/266px-Albert_Heijn_Logo.svg.png">
+        <h2>Albert Heijn</h2>
+        <div class="blockdivider contactinfo">
+          <p>
+            Straat
+          </p>
+          <p>
+            postcode
+          </p>
+          <p>
+            telefoonnummer
+          </p>
+        </div>
+        <div class="blockdivider inkooptabel">
+          <table>
+            <thead>
+              <tr>
+                <th>aantal</th>
+                <th>product</th>
+                <th>prijs</th>
+                <th>totaal</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>wasmiddel</td>
+                <td>0.30</td>
+                <td>0.30</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>pizza</td>
+                <td>0.50</td>
+                <td>1.00</td>
+              </tr>
+            </thead>
+            <tbody id="deBoodschappenlijst">
+              
+            </tbody>
+            <tbody>
+              <tr class="tabledivider">
+                <th>totaal aantal</th>
+                <td>3</td>
+                <th>subtotaal</th>
+                <td>1.30</td>
+              </tr>
+              <tr>
+                <th>korting artikelen stuks</th>
+                <td>0.00</td>
+                <th>totaal korting</th>
+                <td>0.00</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="tabledivider">
+                <th>totaal</th>
+                <td></td>
+                <td></td>
+                <td>1.30</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <div>
+          <p>
+            datum
+          </p>
+          <p>
+            Bedankt en tot ziens
+          </p>
+        </div>
+      </div>
+      <div class="column side">
+
+      </div>
+    </div>
+  </body>
+
+</html>
+

@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  
+  }
+  
+  .invulvak {
+    background-color: blue;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 300px;
+  
+  }
+  
+  .column {
+    float: left;
+  }
+  
+  .column.side {
+    background-color: grey;
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    padding-top: 100%;
+  }
+  
+  .column.middle {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .blockdivider {
+    border-bottom: 4px dotted;
+  }
+  
+  .contactinfo {
+    padding-bottom: 20px;
+  }
+  
+  .inkooptabel {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  
+  .tabledivider th, .tabledivider td {
+    padding-top: 20px;
+  }
+  
+  table {
+    margin-left: 20px;
+  }
+  
+  tfoot {
+  
+    font-size: 30px;
+  
+  }
+  
+  tbody {}
+  
+  
